@@ -14,11 +14,16 @@ const experience = () => {
         </h3>
         {<GiJourney className="text-[#3282B8] w-10 h-10" />}
       </div>
+      <div>
+          <GiBeachBall className="w-10 h-10 rounded-full text-xl text-[#B31312] flex items-center justify-center" />
+          <h4 className="text-2xl pt-2 font-semibold"> AirlinQ </h4>
+          <p> Solution Architect 2024 - Present </p>
+        </div>
       <span className="flex justify-around gap-15">
         <div>
           <GiBoatPropeller className="w-10 h-10 rounded-full text-xl text-[rgb(50,130,184)] flex items-center justify-center" />
           <h4 className="text-2xl pt-2 font-semibold"> Telenor Pakistan </h4>
-          <p> Solution Architect 2020 - Present </p>
+          <p> System Analyst 2020 - 2024 </p>
         </div>
         <div>
           <SiJsonwebtokens className="w-10 h-10 rounded-full text-xl text-[#A2FF86] flex items-center justify-center" />
@@ -35,6 +40,7 @@ const experience = () => {
           <h4 className="text-2xl pt-2 font-semibold"> Mobilink </h4>
           <p> NOC Core Support Expert 2012 - 2013 </p>
         </div>
+
       </span>
     </div>
   );
